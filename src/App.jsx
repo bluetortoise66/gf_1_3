@@ -1,8 +1,8 @@
-import Profile from "./Profile";
+import Profile from "./Profile.jsx";
 
 const App = () => {
   return (
-    <div>
+    <div className="flex justify-center font-sans">
       <Profile />
     </div>
   );

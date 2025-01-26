@@ -7,3 +7,29 @@
 * {
   outline: none;
 }
+
+._gradientbg {
+  background: linear-gradient(116deg, #f9fafb, #d2d6db);
+}
+
+._social_anchor:focus {
+  box-shadow: 0 0 0 4px rgba(68, 76, 231, 0.12);
+  background-color: var(--color-neutral-50);
+}
+
+._button_lg,
+._button_lg:hover,
+_profile_card {
+  box-shadow:
+    0 1px 2px 0px rgba(0, 0, 0, 0.06),
+    0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+._button_lg:focus {
+  box-shadow: 0 0 0 4px rgba(68, 76, 231, 0.12);
+}
+
+._button_lg:disabled {
+  background-color: #f5f5f5;
+  color: #a3a3a3;
+}
