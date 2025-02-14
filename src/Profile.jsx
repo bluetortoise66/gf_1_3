@@ -1,6 +1,6 @@
 const Profile = () => {
   return (
-    <div className="_profile_card mt-[200px] flex w-[340px] flex-col gap-10 rounded-lg bg-white px-4 py-6">
+    <div className="mt-[200px] flex w-[340px] flex-col gap-10 rounded-lg bg-white px-4 py-6 [box-shadow:_0px_1px_3px_0px_rgba(0,_0,_0,_10%),_0px_1px_2px_0px_rgba(0,_0,_0,_6%)]">
       <div className="flex flex-col items-center gap-6">
         <img
           className="size-16 rounded-lg object-cover"
@@ -8,7 +8,7 @@ const Profile = () => {
           alt="Profile Picture"
         />
         <div className="flex flex-col items-center text-center">
-          <span className="text-lg font-medium text-neutral-900">
+          <span className="text-xl font-medium text-neutral-900">
             Sarah Dole
           </span>
           <span className="text-sm font-normal text-neutral-600">
@@ -55,7 +55,6 @@ const Profile = () => {
             className="_social_anchor flex items-center justify-center rounded-sm p-2 hover:bg-neutral-50"
           >
             <svg
-              width="20"
               height="20"
               viewBox="0 0 20 20"
               fill="currentColor"
