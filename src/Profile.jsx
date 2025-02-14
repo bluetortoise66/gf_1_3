@@ -10,7 +10,7 @@ const Profile = () => {
         />
         <div className="flex flex-col items-center text-center">
           <span className="text-xl font-medium text-neutral-900">
-            Sarah Dole
+            Sarah Dole Staging
           </span>
           <span className="text-sm font-normal text-neutral-600">
             Front End Engineer @ Microsoft
